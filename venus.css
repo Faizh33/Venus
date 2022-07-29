@@ -1,0 +1,183 @@
+@media(max-width:767px) {
+  body {
+      font-size: 14px;
+  };
+}
+
+@media(min-width:768px) {
+  body {
+      font-size: 14px;
+  };
+}
+
+@media(min-width:992px) {
+  body {
+      font-size: 15px;
+  };
+}
+
+@media(min-width:1200px) {
+  body {
+      font-size: 16px;
+  };
+}
+
+
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+  
+.title1, p.content, .title2, .accueil, .adoption, .main2, .animalspride, .tombola {
+  text-align: center;
+}
+
+.nav, .title1, .title2, .text, .events-title1, .events-title2, legend {
+  font-weight: bold;
+}
+
+  
+/* En tête du site*/
+.logo {
+  max-width : 100%;
+  height: auto;
+}
+  
+.header {
+  font-size: 0.9em;
+}
+
+.contact {
+  text-align: right;
+}
+
+a.tel:link {
+  color:black;
+  text-decoration: none;
+}
+
+
+/* Barre de navigation et footer */
+.nav, .footer {
+  background: lightseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  padding-left: 5vh;
+  height: 7vh;
+}
+
+
+.nav-link, .text-footer {
+  color: white;
+}
+
+ul.nav:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.social-network {
+  color: white;
+}
+  
+a.social-network:hover {
+  color: white;
+}
+  
+
+/*Contenu principal de la page 1*/
+.asso {
+  border: 6px dotted lightseagreen;
+  margin: 5%;
+  padding: 3%;
+  background: #E9F1F1;
+}
+  
+.title1, .title2 {
+  text-decoration: underline;
+}
+  
+.title2 {
+  font-size: 1.7em;
+}
+  
+.didier {
+  max-height: 100%;
+  max-width: 100%;
+}
+  
+.adoption {
+  border: 5px solid lightseagreen;
+  height: 400px;
+  width: 300px;
+  background: #E9F1F1;
+  margin: 3%;
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+  
+.text {
+  padding: 5%;
+}
+
+/* Contenu principal de la page 2*/
+.events-title1 {
+  margin: 4vh;
+}
+
+.img-events {
+  width: 100%;
+  padding: 5%;
+}
+
+.devoir {
+  list-style-type: none;
+}
+
+/* Formulaire de commentaire*/
+.form {
+  background-color:#FAFAFA;
+  margin: 0 auto;
+  width:280px;
+  padding: 5vh;
+}
+  
+fieldset {
+  padding:0 20px 20px 20px;
+  margin-bottom:10px;
+  border:1px solid lightseagreen;
+  width: 350px;
+}
+  
+legend {
+  color:lightseagreen;
+}
+  
+label {
+  margin-top: 10px;
+  display: block;
+}
+  
+input, textarea {
+  background-color: #e9f7f7;
+  padding: 3px;
+  border: 1px solid #c6f2f5;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+  
+button {
+  box-shadow: 1px 1px 1px lightgray;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
